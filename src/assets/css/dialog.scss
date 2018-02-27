@@ -1,0 +1,39 @@
+/* 对话框样式 */
+.el-dialog.el-dialog--small {
+  border: 0.8rem solid #c6c6c6;
+}
+
+.el-dialog__header {
+  padding: 1rem !important;
+  background-color: #f2f2f2;
+}
+
+.el-dialog__body {
+  padding: 0 !important;
+}
+
+.dialog-body > .el-row > .el-col {
+  display: flex;
+  align-items: center;
+}
+
+.dialog-body > .el-row {
+  margin-top: 2rem;
+}
+
+.unit-margin {
+  margin-left: 5px;
+}
+
+.dialog-body {
+  margin: 1rem;
+}
+
+.dialog-footer {
+  float: right;
+  margin: 1rem;
+}
+
+.dialog-footer > .el-button {
+  margin-left: 1rem;
+}

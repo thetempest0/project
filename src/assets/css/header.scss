@@ -1,0 +1,104 @@
+.header-contrainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3b9dd8;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 960px) {
+  .header-contrainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3b9dd8;
+    flex-wrap: wrap;
+  }
+}
+
+.header-logo {
+  margin-left: 2rem;
+}
+
+.header-title {
+  font-size: 2rem;
+  color: white;
+}
+
+.header-menu {
+  background: #3b9dd8;
+  margin: 0 2rem;
+}
+
+.el-menu-item {
+  color: white;
+  width: 10rem;
+  text-align: center;
+  font-size: 1.6rem;
+  position: relative;
+}
+
+.menu-center:hover {
+  .hoverBox {
+    display: block;
+  }
+}
+
+ul.hoverBox {
+  margin: 0;
+  padding: 0;
+  display: none;
+  position: absolute;
+  top: 56px;
+  width: 8rem;
+  background-color: #218bca;
+  z-index: 5;
+  box-sizing: border-box;
+  left: 0;
+}
+
+ul.hoverBox li {
+  font-size: 18px;
+}
+
+ul.hoverBox li:hover {
+  background-color: #3b9dd8;
+}
+
+.header-item-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-item-rigth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.el-menu--horizontal .el-menu-item {
+  border-top: 5px solid transparent;
+  border-bottom: 0;
+}
+
+.is-active, .el-menu--horizontal .el-menu-item:hover, .el-menu--horizontal .el-submenu__title:hover {
+  border-top: 5px solid #90d28a !important;
+  border-bottom: 0 !important;
+  background: #218bca;
+}
+
+.icom-menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+}
+
+.icom-menu-item:hover {
+  background: #218bca;
+}
+
+.icom-menu-item > span {
+  margin-left: 0.5rem;
+}

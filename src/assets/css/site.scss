@@ -1,0 +1,73 @@
+@import "dialog";
+
+body {
+  margin: 0;
+  background: #edeef2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.float-right {
+  float: right;
+}
+
+input{
+  outline: none;
+}
+
+.table-border {
+  margin: 0 0.5rem;
+  border: 1px solid #CCCCCC
+}
+
+/*  */
+.header-row {
+  margin: 0.5rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.header-right-item {
+  margin-left: 1rem !important;
+}
+
+.header-nav-col {
+  display: flex;
+  align-self: flex-end;
+}
+
+hr {
+  margin: 0;
+}
+
+/* 表格单元主色 */
+.color-main {
+  color: #7BB5DB;
+}
+
+/* tooltip样式 */
+.el-tooltip__popper.is-light {
+  background-color: #ebeff2 !important;
+}
+
+.tooltip-p p {
+  margin: .4rem 0
+}
+
+.tooltip-p p:first-child {
+  margin-top: 0
+}
+
+.tooltip-p p:last-child {
+  margin-bottom: 0
+}
+
+.dlg-image {
+  bottom: 15% !important;
+}
